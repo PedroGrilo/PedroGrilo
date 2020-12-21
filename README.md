@@ -38,7 +38,8 @@
   <img align="left" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=PedroGrilo&show_icons=true&hide_border=true" />
 
 <br>
----
+<br>
+<br>
 <br>
 
 
