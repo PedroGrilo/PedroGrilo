@@ -1,6 +1,6 @@
 ### Hi there, I'm Pedro, Welcome! 👋
 
-- 🌱 I’m currently studying computer science in [FCT][https://www.fct.unl.pt]🤣
+- 🌱 I’m currently studying computer science in [<a href="https://www.fct.unl.pt">FCT]🤣
 - ⚡ Fun fact: I love play videogames and edit photos/videos.
 
 ### Spotify Playing 🎧
