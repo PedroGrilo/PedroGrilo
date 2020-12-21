@@ -5,7 +5,7 @@
 
 ### Spotify Playing 🎧
 
-[<img src="https://now-playing-codestackr.vercel.app/api/spotify-playing" alt="Pedro Spotify Playing" width="350" />](https://open.spotify.com/user/11159500462)
+[![Spotify](https://now-playing-codestackr.vercel.app/api/spotify-playing)](https://open.spotify.com/user/11159500462)
 
 ### Connect with me:
 
