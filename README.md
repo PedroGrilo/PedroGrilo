@@ -37,13 +37,8 @@
 
   <img align="left" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=PedroGrilo&show_icons=true&hide_border=true" />
 
-<br>
-<br>
-<br>
-<br>
 
-
-  <img align="left" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrogrilo&layout=compact&langs_count=12&hide=HLSL,ShaderLab,ASP" />
+  <img align="left" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrogrilo&layout=compact&langs_count=12&hide=HLSL,ShaderLab,ASP&hide_border=true" />
 
 </details>
 
