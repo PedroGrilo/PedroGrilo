@@ -40,8 +40,6 @@
   <img align="left" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrogrilo&layout=compact&langs_count=12&hide=HLSL,ShaderLab,ASP&hide_border=true" />
 
 
----
-
 [youtube]: https://www.youtube.com/user/ohsekkicas
 [instagram]: https://www.instagram.com/pgriloo/
 [linkedin]: https://www.linkedin.com/in/pedrorxpgrilo/
