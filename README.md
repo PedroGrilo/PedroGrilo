@@ -1,7 +1,7 @@
 ### Hi there, I'm Pedro, Welcome! 👋
 
-- 🌱 I’m currently studying computer science in <a href="https://www.fct.unl.pt">FCT NOVA</a>🤣
-- ⚡ Fun fact: I love play videogames and edit photos/videos.
+- 🌱 I’m currently studying computer science in <a href="https://www.fct.unl.pt">NOVA School of Science and Technology</a>🤣
+- ⚡ Fun fact: I love play videogames and edit some photos and videos.
 
 ### Connect with me:
 
