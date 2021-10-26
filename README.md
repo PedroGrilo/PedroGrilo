@@ -32,7 +32,7 @@
 
 ### GitHub Stats:
 
-  <img align="left" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=PedroGrilo&show_icons=true&hide_border=true" />
+  <img align="left" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=PedroGrilo&show_icons=true&hide_border=true" />
 
   <img align="right" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrogrilo&layout=compact&langs_count=12&hide=HLSL,ShaderLab,ASP&hide_border=true" />
 
