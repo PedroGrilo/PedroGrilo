@@ -5,9 +5,8 @@
 
 ### Connect with me:
 
-[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" style="fill:red" />][youtube]
+[<img align="left"  src="(https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />][youtube]
 [<img align="left"   src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
-[<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br/>
 
