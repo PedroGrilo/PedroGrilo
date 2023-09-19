@@ -9,7 +9,7 @@
 [<img align="left"  width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
-<br />
+<br/>
 
 ### Tools:
 
@@ -17,6 +17,8 @@
 <img align="left" alt="Intellij Ultimate" width="26px" src="https://img.icons8.com/color/48/000000/intellij-idea.png" />
 
 <br/>
+
+
 ### Languages / Frameworks:
 
 <img align="left" alt="JavaScript" width="26px"  src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/javascript.svg"/>
