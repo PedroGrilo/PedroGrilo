@@ -17,7 +17,6 @@
 
 <br/>
 
-
 ### Languages / Frameworks:
 
 <img align="left"  alt="JavaScript" width="26px"  src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/javascript.svg"/>
