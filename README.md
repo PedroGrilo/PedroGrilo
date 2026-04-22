@@ -50,7 +50,7 @@
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPedroGrilo1212%2Fhit-counter" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=PedroGrilo&label=Profile%20Views&color=007ACC&style=for-the-badge" alt="Profile views" />
 </p>
 
 <div align="center">
