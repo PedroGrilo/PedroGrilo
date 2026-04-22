@@ -1,52 +1,62 @@
-### Hi there, I'm Pedro, Welcome! 👋
+<h1 align="center">Hi, I'm Pedro</h1>
 
-- 🌱 I’m currently studying computer science in <a href="https://www.fct.unl.pt">NOVA School of Science and Technology</a>🤣
-- ⚡ Fun fact: I love play videogames and edit some photos and videos.
-
-### Connect with me:
-
-[<img align="left"  src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />][youtube]
-[<img align="left"   src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
-
-<br/>
-
-### Tools:
-
-<img style="background-color: transparent;" align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />
-<img style="background-color: transparent;" align="left" alt="Intellij Ultimate" width="26px" src="https://img.icons8.com/color/48/000000/intellij-idea.png" />
-
-<br/>
-
-### Languages / Frameworks:
-
-<img align="left"  alt="JavaScript" width="26px"  src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/javascript.svg"/>
-<img align="left" alt="TypeScript" width="26px"  src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/master/programming%20languages/typescript.svg"/>
-<img align="left" alt="React" width="26px"  src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"/>
-<img align="left" alt="Vue" width="26px"  src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vue.png"/>
-
-<img align="left" alt="C#" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png" />
-<img align="left" alt="Java" width="26px" src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" />
-<img align="left" alt="Python" width="26px" src="https://img.icons8.com/color/48/000000/python.png"/>
-<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />
-
-<br />
-<br />
+<p align="center">
+  <strong>Computer Science student at <a href="https://www.fct.unl.pt">NOVA School of Science and Technology</a></strong>
+</p>
 
 ---
 
+## About Me
 
-### GitHub Stats:
+- I am currently studying Computer Science at [NOVA School of Science and Technology](https://www.fct.unl.pt).
+- I enjoy playing video games and editing photos and videos.
 
- <img align="left" alt="PedroGrilo's GitHub Stats" src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPedroGrilo1212%2Fhit-counter" />
+## Connect With Me
 
- <br />
+<p>
+  <a href="https://www.linkedin.com/in/prxpgrilo/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://www.youtube.com/user/ohsekkicas">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
+  </a>
+</p>
 
- <div style="display:grid; grid-template-columns: repeat(4, 1fr);">
+## Tech Stack
 
-  <img align="left" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=PedroGrilo&show_icons=true&hide_border=true" />
+### Tools
 
-  <img align="right" alt="PedroGrilo's GitHub Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pedrogrilo&layout=compact&langs_count=12&hide=HLSL,ShaderLab,ASP&hide_border=true" />
-</div>
+<p>
+  <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code" />
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA" />
+</p>
 
-[youtube]: https://www.youtube.com/user/ohsekkicas
-[linkedin]:https://www.linkedin.com/in/prxpgrilo/
+### Languages / Frameworks
+
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+</p>
+
+## GitHub Stats
+
+<p align="center">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPedroGrilo1212%2Fhit-counter" alt="Profile views" />
+</p>
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=PedroGrilo&show_icons=true&hide_border=true" alt="PedroGrilo's GitHub stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroGrilo&layout=compact&langs_count=12&hide=HLSL,ShaderLab,ASP&hide_border=true" alt="PedroGrilo's top languages" />
+    </td>
+  </tr>
+</table>
