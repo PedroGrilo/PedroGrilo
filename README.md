@@ -29,6 +29,9 @@
 <p>
   <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code" />
   <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
 </p>
 
 ### Languages / Frameworks
@@ -50,13 +53,41 @@
   <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FPedroGrilo1212%2Fhit-counter" alt="Profile views" />
 </p>
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=PedroGrilo&show_icons=true&hide_border=true" alt="PedroGrilo's GitHub stats" />
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=PedroGrilo&layout=compact&langs_count=12&hide=HLSL,ShaderLab,ASP&hide_border=true" alt="PedroGrilo's top languages" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <picture>
+      <source
+        srcset="https://github-readme-stats.vercel.app/api?username=PedroGrilo&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;custom_title=Pedro%27s%20GitHub%20Stats&amp;hide_border=true&amp;border_radius=10&amp;line_height=26&amp;theme=dark&amp;title_color=58A6FF&amp;icon_color=58A6FF&amp;text_color=C9D1D9&amp;bg_color=0D1117"
+        media="(prefers-color-scheme: dark)"
+      />
+      <source
+        srcset="https://github-readme-stats.vercel.app/api?username=PedroGrilo&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;custom_title=Pedro%27s%20GitHub%20Stats&amp;hide_border=true&amp;border_radius=10&amp;line_height=26&amp;title_color=007ACC&amp;icon_color=007ACC&amp;text_color=24292F&amp;bg_color=FFFFFF"
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+      />
+      <img
+        height="200"
+        align="center"
+        src="https://github-readme-stats.vercel.app/api?username=PedroGrilo&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;custom_title=Pedro%27s%20GitHub%20Stats&amp;hide_border=true&amp;border_radius=10&amp;line_height=26&amp;title_color=007ACC&amp;icon_color=007ACC&amp;text_color=24292F&amp;bg_color=FFFFFF"
+        alt="PedroGrilo's GitHub stats"
+      />
+    </picture>
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <picture>
+      <source
+        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=PedroGrilo&amp;layout=compact&amp;langs_count=8&amp;card_width=320&amp;hide=HLSL,ShaderLab,ASP&amp;custom_title=Most%20Used%20Languages&amp;hide_border=true&amp;border_radius=10&amp;theme=dark&amp;title_color=58A6FF&amp;text_color=C9D1D9&amp;bg_color=0D1117"
+        media="(prefers-color-scheme: dark)"
+      />
+      <source
+        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=PedroGrilo&amp;layout=compact&amp;langs_count=8&amp;card_width=320&amp;hide=HLSL,ShaderLab,ASP&amp;custom_title=Most%20Used%20Languages&amp;hide_border=true&amp;border_radius=10&amp;title_color=007ACC&amp;text_color=24292F&amp;bg_color=FFFFFF"
+        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+      />
+      <img
+        height="200"
+        align="center"
+        src="https://github-readme-stats.vercel.app/api/top-langs?username=PedroGrilo&amp;layout=compact&amp;langs_count=8&amp;card_width=320&amp;hide=HLSL,ShaderLab,ASP&amp;custom_title=Most%20Used%20Languages&amp;hide_border=true&amp;border_radius=10&amp;title_color=007ACC&amp;text_color=24292F&amp;bg_color=FFFFFF"
+        alt="PedroGrilo's most used languages"
+      />
+    </picture>
+  </a>
+</div>
