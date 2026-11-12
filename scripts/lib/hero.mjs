@@ -152,7 +152,7 @@ function factChips(theme, facts, x, y) {
 
 const BOX = { x: 548, y: 24, w: 308, h: 272 }; // editor window
 const MAP = { x: BOX.x + 8, y: BOX.y + 40, w: BOX.w - 16, h: BOX.h - 48 }; // map viewport
-const MAP_LOOP = 12; // seconds per drawing loop
+const MAP_LOOP = 14; // seconds per drawing loop
 
 /** Editor window chrome: file name on the left, avatars + "live" presence pill on the right. */
 function editorChrome(theme) {
@@ -212,26 +212,53 @@ function terrain(theme) {
   <path d="M7 11 H15 M11 7 V15 M7 33 H15" stroke="${theme.muted}" stroke-width="1.4" stroke-linecap="round"/>
 </g>`;
 }
-// Polygon vertices (map-local) and who places them. Pedro draws the first half, "You" closes it.
-const POLY = [[48, 60], [140, 34], [220, 70], [226, 140], [146, 168], [60, 138]];
-const REST = { pedro: [16, 12], you: [196, 184] };
-// Loop timeline as fractions of MAP_LOOP. Each cursor visits its waypoints at these times;
-// the edge into a vertex is drawn over exactly the interval the cursor travels it.
-const PEDRO_PATH = [[0, REST.pedro], [0.04, REST.pedro], [0.1, POLY[0]], [0.18, POLY[1]], [0.26, POLY[2]], [0.34, POLY[3]], [0.46, REST.pedro], [1, REST.pedro]];
-const YOU_PATH = [[0, REST.you], [0.28, REST.you], [0.37, POLY[3]], [0.45, POLY[4]], [0.53, POLY[5]], [0.61, POLY[0]], [0.72, REST.you], [1, REST.you]];
-const EDGES = [ // [from, to, start, end, author]
-  [0, 1, 0.1, 0.18, 'pedro'], [1, 2, 0.18, 0.26, 'pedro'], [2, 3, 0.26, 0.34, 'pedro'],
-  [3, 4, 0.37, 0.45, 'you'], [4, 5, 0.45, 0.53, 'you'], [5, 0, 0.53, 0.61, 'you'],
-];
-const VERTEX_AT = [[0.1, 'pedro'], [0.18, 'pedro'], [0.26, 'pedro'], [0.34, 'pedro'], [0.45, 'you'], [0.53, 'you']];
-const CLOSE_AT = 0.61;
-const FADE = [0.9, 0.96]; // finished shape fades out, then the loop restarts empty
-const MAP_START = 0.8; // t=0 shows the finished, labelled polygon (static frame is complete)
+// Scene: Pedro and "You" draw two zones AT THE SAME TIME and they overlap. The overlap flashes
+// as a conflict, then resolves into a shared (striped) area: a CRDT merge where no edit is lost.
+const ZONE_A = [[34, 46], [150, 38], [158, 128], [42, 140]]; // Pedro (map-local)
+const ZONE_B = [[112, 78], [232, 66], [238, 166], [118, 174]]; // You
+const REST = { pedro: [10, 10], you: [214, 186] };
+// Waypoints as fractions of MAP_LOOP; both cursors draw concurrently, closing their shape last.
+const tour = (zone, rest, t0, step) => [[0, rest], [t0 - 0.06, rest], ...zone.map((p, i) => [t0 + i * step, p]), [t0 + zone.length * step, zone[0]], [t0 + zone.length * step + 0.1, rest], [1, rest]];
+const PEDRO_PATH = tour(ZONE_A, REST.pedro, 0.08, 0.075);
+const YOU_PATH = tour(ZONE_B, REST.you, 0.12, 0.075);
+const CLOSE_A = 0.08 + 4 * 0.075; // 0.38
+const CLOSE_B = 0.12 + 4 * 0.075; // 0.42
+const CONFLICT = [CLOSE_B + 0.01, 0.58]; // overlap flashes, "Conflict" badge
+const MERGED = [0.6, 0.88]; // striped shared area, "Merged" badge
+const FADE = [0.9, 0.96]; // everything fades out, the loop restarts empty
+const MAP_START = 0.72; // t=0 shows the merged result, so the static frame tells the story
 
 const P = (f) => `${n(f * 100)}%`;
 /** Build an @keyframes rule from [fraction, declarations] stops. */
 const keyframes = (name, stops) => `@keyframes ${name}{${stops.map(([f, d]) => `${P(f)}{${d}}`).join('')}}`;
 const anim = (name, extra = '') => `animation:${name} ${MAP_LOOP}s -${n(MAP_START * MAP_LOOP)}s infinite ${extra}`;
+/** Visible (opacity 1) between two fractions of the loop, with short fades. */
+const shownBetween = (name, [a, b], cls = name) => `${keyframes(name, [[0, 'opacity:0'], [a, 'opacity:0'], [a + 0.02, 'opacity:1'], [b, 'opacity:1'], [b + 0.02, 'opacity:0'], [1, 'opacity:0']])}
+.${cls}{${anim(name)}}`;
+
+/** Convex polygon intersection (Sutherland–Hodgman); both zones are convex quads. */
+function intersect(subject, clip) {
+  let out = subject;
+  for (let i = 0; i < clip.length; i += 1) {
+    const [a, b] = [clip[i], clip[(i + 1) % clip.length]];
+    const side = (p) => (b[0] - a[0]) * (p[1] - a[1]) - (b[1] - a[1]) * (p[0] - a[0]);
+    const cross = (p, q) => {
+      const t = side(p) / (side(p) - side(q));
+      return [p[0] + t * (q[0] - p[0]), p[1] + t * (q[1] - p[1])];
+    };
+    const input = out;
+    out = [];
+    input.forEach((p, j) => {
+      const q = input[(j + 1) % input.length];
+      if (side(q) >= 0) {
+        if (side(p) < 0) out.push(cross(p, q));
+        out.push(q);
+      } else if (side(p) >= 0) out.push(cross(p, q));
+    });
+  }
+  return out;
+}
+const pts = (poly) => poly.map(([x, y]) => `${n(x)},${n(y)}`).join(' ');
 
 /** Multiplayer cursor: arrow + name tag, moved along its waypoints with CSS keyframes. */
 function cursor(theme, id, label, color, path) {
@@ -247,46 +274,57 @@ function cursor(theme, id, label, color, path) {
   return { css, body };
 }
 
-/** The polygon: edges drawn stroke by stroke, vertices popping in, then fill + area label. */
-function polygon(theme) {
-  const color = (who) => (who === 'pedro' ? theme.accent : theme.accent2);
-  let css = `${keyframes('ha-shape', [[0, 'opacity:1'], [FADE[0], 'opacity:1'], [FADE[1], 'opacity:0'], [1, 'opacity:0']])}
-.ha-shape{${anim('ha-shape')}}`;
-  const pts = POLY.map((p) => p.join(',')).join(' ');
-  css += `${keyframes('ha-fill', [[0, 'opacity:0'], [CLOSE_AT, 'opacity:0'], [CLOSE_AT + 0.05, 'opacity:1'], [1, 'opacity:1']])}
-.ha-fill{${anim('ha-fill')}}`;
-  let body = `<g class="ha-shape"><polygon class="ha-fill" points="${pts}" fill="${theme.accent}" fill-opacity="${theme.name === 'dark' ? 0.14 : 0.12}"/>`;
-  EDGES.forEach(([a, b, s, e, who], i) => {
-    const [x1, y1] = POLY[a];
-    const [x2, y2] = POLY[b];
-    css += `${keyframes(`ha-e${i}`, [[0, 'stroke-dashoffset:1'], [s, 'stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)'], [e, 'stroke-dashoffset:0'], [1, 'stroke-dashoffset:0']])}
-.ha-e${i}{${anim(`ha-e${i}`)}}`;
-    body += `<path class="ha-e${i}" d="M${x1} ${y1}L${x2} ${y2}" pathLength="1" stroke-dasharray="1 1" stroke="${color(who)}" stroke-width="2.2" stroke-linecap="round"/>`;
+/** One zone: edges drawn as its cursor travels them, vertices popping in, fill when closed. */
+function zone(theme, id, poly, path, closeAt, color) {
+  let css = `${keyframes(`ha-f${id}`, [[0, 'opacity:0'], [closeAt, 'opacity:0'], [closeAt + 0.04, 'opacity:1'], [1, 'opacity:1']])}
+.ha-f${id}{${anim(`ha-f${id}`)}}`;
+  let body = `<polygon class="ha-f${id}" points="${pts(poly)}" fill="${color}" fill-opacity="${theme.name === 'dark' ? 0.16 : 0.13}"/>`;
+  poly.forEach((p, i) => {
+    const q = poly[(i + 1) % poly.length];
+    const [s, e] = [path[i + 2][0], path[i + 3][0]]; // cursor leaves vertex i at s, reaches i+1 at e
+    css += `${keyframes(`ha-e${id}${i}`, [[0, 'stroke-dashoffset:1'], [s, 'stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)'], [e, 'stroke-dashoffset:0'], [1, 'stroke-dashoffset:0']])}
+.ha-e${id}${i}{${anim(`ha-e${id}${i}`)}}
+${keyframes(`ha-v${id}${i}`, [[0, 'transform:scale(0)'], [s, 'transform:scale(0)'], [s + 0.015, 'transform:scale(1.5)'], [s + 0.035, 'transform:scale(1)'], [1, 'transform:scale(1)']])}
+.ha-v${id}${i}{transform-box:fill-box;transform-origin:center;${anim(`ha-v${id}${i}`)}}`;
+    body += `<path class="ha-e${id}${i}" d="M${p[0]} ${p[1]}L${q[0]} ${q[1]}" pathLength="1" stroke-dasharray="1 1" stroke="${color}" stroke-width="2.2" stroke-linecap="round"/>`;
   });
-  VERTEX_AT.forEach(([f, who], i) => {
-    const [x, y] = POLY[i];
-    css += `${keyframes(`ha-v${i}p`, [[0, 'transform:scale(0)'], [f, 'transform:scale(0)'], [f + 0.015, 'transform:scale(1.5)'], [f + 0.035, 'transform:scale(1)'], [1, 'transform:scale(1)']])}
-.ha-v${i}p{transform-box:fill-box;transform-origin:center;${anim(`ha-v${i}p`)}}`;
-    body += `<circle class="ha-v${i}p" cx="${x}" cy="${y}" r="4.5" fill="${theme.panel}" stroke="${color(who)}" stroke-width="2"/>`;
-  });
-  body += `${areaLabel(theme)}</g>`;
+  body += poly.map((p, i) => `<circle class="ha-v${id}${i}" cx="${p[0]}" cy="${p[1]}" r="4" fill="${theme.panel}" stroke="${color}" stroke-width="2"/>`).join('');
   return { css, body };
 }
-/** Small "area" tag that pops in at the polygon centroid once the shape is closed. */
-function areaLabel(theme) {
-  const cx = POLY.reduce((s, p) => s + p[0], 0) / POLY.length;
-  const cy = POLY.reduce((s, p) => s + p[1], 0) / POLY.length;
-  const text = 'Zone A · 1.4 km²';
-  const tw = textWidth(text, 11, { weight: 600 });
-  const w = tw + 28;
-  const at = CLOSE_AT + 0.03;
-  const css = `${keyframes('ha-area', [[0, 'transform:scale(0);opacity:0'], [at, 'transform:scale(0);opacity:0'], [at + 0.02, 'transform:scale(1.06);opacity:1'], [at + 0.035, 'transform:scale(1);opacity:1'], [1, 'transform:scale(1);opacity:1']])}
-.ha-area{transform-box:fill-box;transform-origin:center;${anim('ha-area')}}`;
-  return `<style>${css}</style><g class="ha-area">
-  <rect x="${n(cx - w / 2)}" y="${n(cy - 11)}" width="${n(w)}" height="22" rx="11" fill="${theme.panel}" stroke="${theme.border}"/>
-  <circle cx="${n(cx - w / 2 + 12)}" cy="${n(cy)}" r="3.5" fill="${theme.accent3}"/>
-  <text x="${n(cx - w / 2 + 20)}" y="${n(cy + 4)}" font-size="11" font-weight="600" fill="${theme.text}" textLength="${n(tw)}">${esc(text)}</text>
+
+/** Status pill at the top of the map: "Conflict" first, then "Merged". */
+function badge(theme, cls, text, color, x, y) {
+  const tw = textWidth(text, 11, { weight: 700 });
+  const w = tw + 30;
+  return `<g class="${cls}" opacity="0"><rect x="${n(x - w / 2)}" y="${y}" width="${n(w)}" height="22" rx="11" fill="${theme.panel}" stroke="${color}"/>
+<circle cx="${n(x - w / 2 + 12)}" cy="${y + 11}" r="3.5" fill="${color}"/>
+<text x="${n(x - w / 2 + 21)}" y="${y + 15}" font-size="11" font-weight="700" fill="${theme.text}" textLength="${n(tw)}">${esc(text)}</text></g>`;
+}
+
+/** Both zones, the conflicting overlap and its resolution. */
+function polygon(theme) {
+  const a = zone(theme, 'a', ZONE_A, PEDRO_PATH, CLOSE_A, theme.accent);
+  const b = zone(theme, 'b', ZONE_B, YOU_PATH, CLOSE_B, theme.accent2);
+  const overlap = pts(intersect(ZONE_A, ZONE_B));
+  const css = [
+    a.css,
+    b.css,
+    keyframes('ha-shape', [[0, 'opacity:1'], [FADE[0], 'opacity:1'], [FADE[1], 'opacity:0'], [1, 'opacity:0']]),
+    `.ha-shape{${anim('ha-shape')}}`,
+    shownBetween('ha-conflict', CONFLICT),
+    keyframes('ha-blink', [[0, 'opacity:.25'], [50, 'opacity:.75'], [100, 'opacity:.25']].map(([f, d]) => [f / 100, d])),
+    `.ha-blink{animation:ha-blink .5s ease-in-out infinite}`,
+    shownBetween('ha-merged', MERGED),
+  ].join('\n');
+  const cx = MAP.w / 2;
+  const body = `<defs><pattern id="ha-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="3" height="6" fill="${theme.accent3}" fill-opacity="0.55"/></pattern></defs>
+<g class="ha-shape">${a.body}${b.body}
+<g class="ha-conflict" opacity="0"><polygon class="ha-blink" points="${overlap}" fill="${theme.danger}" stroke="${theme.danger}" stroke-width="1.5" stroke-dasharray="3 2"/></g>
+<g class="ha-merged" opacity="0"><polygon points="${overlap}" fill="url(#ha-hatch)" stroke="${theme.accent3}" stroke-width="1.5"/></g>
+${badge(theme, 'ha-conflict', 'Conflict · overlapping edits', theme.danger, cx, 8)}
+${badge(theme, 'ha-merged', 'Merged · no edits lost', theme.accent, cx, 8)}
 </g>`;
+  return { css, body };
 }
 
 /** The whole editor illustration: chrome, clipped map, polygon and both cursors. */
