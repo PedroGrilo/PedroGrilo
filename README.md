@@ -1,93 +1,79 @@
-<h1 align="center">Hi, I'm Pedro</h1>
+<!--
+  Every image below is rendered by scripts/generate.mjs (run daily by .github/workflows/profile.yml)
+  and published to the `output` branch. To change the content, edit scripts/profile.config.mjs.
+-->
+
+<a href="https://grilo.net">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/hero-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/hero-light.svg" />
+    <img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/hero-light.svg" width="100%" alt="Pedro Grilo, Senior Frontend Engineer based in Lisbon. I build fast, accessible interfaces with React, Vue.js and TypeScript." />
+  </picture>
+</a>
 
 <p align="center">
-  <strong>Computer Science student at <a href="https://www.fct.unl.pt">NOVA School of Science and Technology</a></strong>
+  <a href="https://grilo.net"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-portfolio-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-portfolio-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-portfolio-light.svg" height="44" alt="Portfolio: grilo.net" /></picture></a>
+  <a href="https://www.linkedin.com/in/prxpgrilo/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-linkedin-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-linkedin-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-linkedin-light.svg" height="44" alt="LinkedIn" /></picture></a>
+  <a href="mailto:pedro@grilo.net"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-email-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-email-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-email-light.svg" height="44" alt="Email" /></picture></a>
+  <a href="https://www.youtube.com/@ohsekkicas"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-youtube-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-youtube-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/link-youtube-light.svg" height="44" alt="YouTube" /></picture></a>
 </p>
 
----
+## About me
 
-## About Me
+I'm a Senior Frontend Engineer based in Lisbon with 6+ years of experience turning complex products into fast, accessible interfaces, from reusable component libraries to real-time, collaborative map editors.
 
-- I am currently studying Computer Science at [NOVA School of Science and Technology](https://www.fct.unl.pt).
-- I enjoy playing video games and editing photos and videos.
+- **Day job:** building web products with React, Vue.js and TypeScript at LinkRoad.
+- **Background:** MSc in Computer Science and Engineering at [NOVA FCT](https://www.fct.unl.pt). My thesis, [LAND IT](https://landit.pt), brought real-time collaborative map editing to wildfire-resilient land planning and was graded 19/20.
+- **After hours:** Rust and Tauri desktop apps, Home Assistant integrations and a home lab that keeps asking for new tools.
+- **Off screen:** video games, and editing photos and videos.
 
-## Connect With Me
-
-<p>
-  <a href="https://www.linkedin.com/in/prxpgrilo/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://www.youtube.com/user/ohsekkicas">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
-</p>
-
-## Tech Stack
-
-### Tools
-
-<p>
-  <img src="https://img.shields.io/badge/Visual_Studio_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code" />
-  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/Codex-412991?style=for-the-badge&logo=openai&logoColor=white" alt="Codex" />
-</p>
-
-### Languages / Frameworks
-
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/Vue-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-</p>
-
-## GitHub Stats
+## Featured projects
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=PedroGrilo&label=Profile%20Views&color=007ACC&style=for-the-badge" alt="Profile views" />
+  <a href="https://github.com/PedroGrilo/NASYNCLOUD"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-nasyncloud-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-nasyncloud-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-nasyncloud-light.svg" width="49%" alt="NASYNCLOUD: your NAS as an on-demand cloud drive. Rust, Tauri, WebDAV." /></picture></a>
+  <a href="https://github.com/PedroGrilo/vektor"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-vektor-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-vektor-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-vektor-light.svg" width="49%" alt="vektor: Windows and Counter-Strike 2 optimizer where every tweak can be undone. Rust, Tauri, React." /></picture></a>
+  <a href="https://github.com/PedroGrilo/ha-fermax-duox-me"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-ha-fermax-duox-me-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-ha-fermax-duox-me-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-ha-fermax-duox-me-light.svg" width="49%" alt="ha-fermax-duox-me: Fermax DuoxMe intercoms in Home Assistant. Python, HACS." /></picture></a>
+  <a href="https://github.com/PedroGrilo/ac-ha-card"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-ac-ha-card-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-ac-ha-card-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-ac-ha-card-light.svg" width="49%" alt="ac-ha-card: Home Assistant climate card with a draggable dial. JavaScript, Web Components." /></picture></a>
+  <a href="https://github.com/PedroGrilo/shopping-list-plus-card"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-shopping-list-plus-card-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-shopping-list-plus-card-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-shopping-list-plus-card-light.svg" width="49%" alt="shopping-list-plus-card: a smarter Home Assistant shopping list. JavaScript, Web Components." /></picture></a>
+  <a href="https://github.com/PedroGrilo/immich-bulk-import"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-immich-bulk-import-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-immich-bulk-import-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/project-immich-bulk-import-light.svg" width="49%" alt="immich-bulk-import: a macOS GUI around the Immich CLI for bulk photo uploads. TypeScript, Electron, React." /></picture></a>
 </p>
 
-<div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <picture>
-      <source
-        srcset="https://github-readme-stats.vercel.app/api?username=PedroGrilo&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;custom_title=Pedro%27s%20GitHub%20Stats&amp;hide_border=true&amp;border_radius=10&amp;line_height=26&amp;theme=dark&amp;title_color=58A6FF&amp;icon_color=58A6FF&amp;text_color=C9D1D9&amp;bg_color=0D1117"
-        media="(prefers-color-scheme: dark)"
-      />
-      <source
-        srcset="https://github-readme-stats.vercel.app/api?username=PedroGrilo&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;custom_title=Pedro%27s%20GitHub%20Stats&amp;hide_border=true&amp;border_radius=10&amp;line_height=26&amp;title_color=007ACC&amp;icon_color=007ACC&amp;text_color=24292F&amp;bg_color=FFFFFF"
-        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-      />
-      <img
-        height="200"
-        align="center"
-        src="https://github-readme-stats.vercel.app/api?username=PedroGrilo&amp;show_icons=true&amp;include_all_commits=true&amp;rank_icon=github&amp;custom_title=Pedro%27s%20GitHub%20Stats&amp;hide_border=true&amp;border_radius=10&amp;line_height=26&amp;title_color=007ACC&amp;icon_color=007ACC&amp;text_color=24292F&amp;bg_color=FFFFFF"
-        alt="PedroGrilo's GitHub stats"
-      />
-    </picture>
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <picture>
-      <source
-        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=PedroGrilo&amp;layout=compact&amp;langs_count=8&amp;card_width=320&amp;hide=HLSL,ShaderLab,ASP&amp;custom_title=Most%20Used%20Languages&amp;hide_border=true&amp;border_radius=10&amp;theme=dark&amp;title_color=58A6FF&amp;text_color=C9D1D9&amp;bg_color=0D1117"
-        media="(prefers-color-scheme: dark)"
-      />
-      <source
-        srcset="https://github-readme-stats.vercel.app/api/top-langs?username=PedroGrilo&amp;layout=compact&amp;langs_count=8&amp;card_width=320&amp;hide=HLSL,ShaderLab,ASP&amp;custom_title=Most%20Used%20Languages&amp;hide_border=true&amp;border_radius=10&amp;title_color=007ACC&amp;text_color=24292F&amp;bg_color=FFFFFF"
-        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-      />
-      <img
-        height="200"
-        align="center"
-        src="https://github-readme-stats.vercel.app/api/top-langs?username=PedroGrilo&amp;layout=compact&amp;langs_count=8&amp;card_width=320&amp;hide=HLSL,ShaderLab,ASP&amp;custom_title=Most%20Used%20Languages&amp;hide_border=true&amp;border_radius=10&amp;title_color=007ACC&amp;text_color=24292F&amp;bg_color=FFFFFF"
-        alt="PedroGrilo's most used languages"
-      />
-    </picture>
-  </a>
-</div>
+More of my work lives on the web:
+
+| Project | What it is |
+| --- | --- |
+| [LAND IT](https://landit.pt) | Real-time collaborative map editing for wildfire-resilient land planning (MSc thesis, 19/20) |
+| [Skin Spectrum](https://skinspectrum.skin) | Visual web platform for Counter-Strike 2 skins |
+| [Ormuz Watch](https://ormuz-watch.vercel.app) | Live monitoring dashboard for the Strait of Hormuz |
+| [Autárquicas 2025](https://autarquicas2025.vercel.app) | Candidate explorer for the 2025 Portuguese local elections |
+| [GDAL Java Guide](https://gdal-java-guide.vercel.app) | Build guide for GDAL's Java bindings on Apple Silicon |
+| [Helicopter WebGL](https://pedrogrilo.github.io/Helicopter-WebGL/) | Interactive 3D helicopter over a stylised city |
+
+## Repo Snake
+
+A snake that plays itself, and the food is real: every bite is one of my public repositories, newest first.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/repo-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/repo-snake-light.svg" />
+  <img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/repo-snake-light.svg" width="100%" alt="Animated snake game where the snake eats Pedro Grilo's public repositories one by one, newest first." />
+</picture>
+
+## Toolbox
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/stack-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/stack-light.svg" />
+  <img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/stack-light.svg" width="100%" alt="Tech stack. Frontend: React, TypeScript, Vue.js, Next.js, Tailwind CSS, Redux Toolkit. Real-time and maps: WebSockets, WebRTC, Yjs and CRDTs, OpenLayers. Desktop and systems: Rust, Tauri, Electron, Python. Backend: Node.js, Java and Quarkus, PostgreSQL and PostGIS. Testing and tooling: Vitest, Playwright, Vite, Docker, GitHub Actions. Home lab: Home Assistant, HACS, Immich, NAS and WebDAV." />
+</picture>
+
+## GitHub activity
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/stats-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/stats-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/stats-light.svg" width="49%" alt="GitHub activity over the last 12 months: contributions, active days, longest streak and public repositories, with the contribution heatmap." /></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/languages-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/languages-light.svg" /><img src="https://raw.githubusercontent.com/PedroGrilo/PedroGrilo/output/languages-light.svg" width="49%" alt="Languages across Pedro Grilo's public repositories." /></picture>
+</p>
+
+<p align="center">
+  <sub>Every image on this page is rendered by a small dependency-free <a href="https://github.com/PedroGrilo/PedroGrilo/blob/main/scripts/generate.mjs">Node.js script</a> and refreshed daily by <a href="https://github.com/PedroGrilo/PedroGrilo/blob/main/.github/workflows/profile.yml">GitHub Actions</a>.</sub>
+</p>
