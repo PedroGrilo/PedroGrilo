@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="462" viewBox="0 0 880 462" role="img" aria-labelledby="t d">
+<title id="t">Repo Snake</title>
+<desc id="d">An auto-playing snake eating 16 public repositories of PedroGrilo: ha-continente, shopping-list-plus-card, NASYNCLOUD, vektor, ha-fermax-duox-me, ac-ha-card, immich-bulk-import, chrome-extension, Clinica-Veterinaria, Simple-Discord-Bot-in-Python, NetworkAdapterSettingsPS3, RandomSM, Maclaren-APP, Simple-2D-Game-In-Unity, jogo-da-forca-c, Gestao-RH.</desc>
+<style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<defs><path id="route" d="M-86 106 H824 A28 28 0 0 1 824 162 H56 A28 28 0 0 0 56 218 H824 A28 28 0 0 1 824 274 H56 A28 28 0 0 0 56 330 H824 A28 28 0 0 1 824 386 H-232"/>
+<clipPath id="board"><rect x="24" y="70" width="832" height="352" rx="12"/></clipPath>
+<pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="7" cy="7" r="1" fill="#d0d7de"/></pattern></defs>
+<rect x="0.5" y="0.5" width="879" height="461" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="29" cy="37" r="4" fill="#1a7f37">
+<animate attributeName="opacity" values="1;0.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text class="mono" x="40" y="41.5" font-size="12" font-weight="700" letter-spacing="2.2" fill="#1a7f37">REPO SNAKE</text>
+<text class="mono" x="156" y="41.5" font-size="11" letter-spacing="1" fill="#818b98">AUTO-PLAY</text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="1">Sniffing out fresh repositories…<animate attributeName="opacity" values="1;0" keyTimes="0;0.0094" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">ha-continente</tspan> · Python<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0094;0.0451" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">shopping-list-plus-card</tspan> · JavaScript<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0451;0.0962" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">NASYNCLOUD</tspan> · Rust<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0962;0.1653" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">vektor</tspan> · Rust<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1653;0.2004" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">ha-fermax-duox-me</tspan> · Python<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2004;0.2474" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">ac-ha-card</tspan> · JavaScript<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2474;0.3085" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">immich-bulk-import</tspan> · TypeScript<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3085;0.3523" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">chrome-extension</tspan> · JavaScript<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3523;0.3927" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">Clinica-Veterinaria</tspan> · HTML<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3927;0.4564" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">Simple-Discord-Bot-in-Python</tspan> · Python<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4564;0.4988" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">NetworkAdapterSettingsPS3</tspan> · PowerShell<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4988;0.5512" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">RandomSM</tspan> · Java<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5512;0.615" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">Maclaren-APP</tspan> · Java<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.615;0.6501" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">Simple-2D-Game-In-Unity</tspan> · C#<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6501;0.6978" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">jogo-da-forca-c</tspan> · C<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6978;0.7682" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">Now eating <tspan fill="#1f2328" font-weight="600">Gestao-RH</tspan> · Java<animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7682;0.953" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text x="24" y="62" font-size="12.5" fill="#59636e" opacity="0">All <tspan fill="#1f2328" font-weight="600">16 repositories</tspan> eaten · respawning<animate attributeName="opacity" values="0;1" keyTimes="0;0.953" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="62" text-anchor="end" font-size="11" fill="#818b98" letter-spacing="1">REPOS EATEN</text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="1">00<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="1;0" keyTimes="0;0.033" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">01<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.033;0.0821" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">02<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.0821;0.1158" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">03<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1158;0.1796" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">04<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.1796;0.2293" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">05<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2293;0.2671" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">06<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.2671;0.3388" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">07<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3388;0.3799" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">08<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.3799;0.4243" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">09<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4243;0.4934" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">10<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.4934;0.5358" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">11<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5358;0.5682" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">12<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.5682;0.6373" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">13<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.6373;0.687" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">14<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.687;0.7241" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">15<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1;0" keyTimes="0;0.7241;0.7865" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text><text class="mono" x="856" y="43" text-anchor="end" font-size="20" font-weight="700" fill="#1f2328" opacity="0">16<tspan fill="#818b98" font-weight="400"> / 16</tspan><animate attributeName="opacity" values="0;1" keyTimes="0;0.7865" dur="29.79s" calcMode="discrete" repeatCount="indefinite"/></text>
+<rect x="24" y="70" width="832" height="352" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<rect x="24" y="70" width="832" height="352" rx="12" fill="url(#dots)"/>
+<clipPath id="c0"><rect x="131.09" y="89" width="137.82" height="34">
+<animate attributeName="x" values="131.09;131.09;268.91;268.91;131.09;131.09" keyTimes="0;0.0094;0.033;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="137.82;137.82;0;0;137.82;137.82" keyTimes="0;0.0094;0.033;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="133.09" y="91" width="133.82" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c0)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="133.09" y="91" width="133.82" height="30" rx="15" fill="#ffffff" stroke="#3572A5" stroke-opacity="0.6"/>
+<circle cx="149.09" cy="106" r="4.5" fill="#3572A5" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="161.09" y="110.3" font-size="12.5" fill="#1f2328">ha-continente</text>
+</g>
+<text class="mono" x="260.91" y="88" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.033;0.0357;0.0599;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.033;0.0357;0.0599;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c1"><rect x="333.46" y="89" width="213.08" height="34">
+<animate attributeName="x" values="333.46;333.46;546.54;546.54;333.46;333.46" keyTimes="0;0.0451;0.0821;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="213.08;213.08;0;0;213.08;213.08" keyTimes="0;0.0451;0.0821;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="335.46" y="91" width="209.08" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c1)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="335.46" y="91" width="209.08" height="30" rx="15" fill="#ffffff" stroke="#f1e05a" stroke-opacity="0.6"/>
+<circle cx="351.46" cy="106" r="4.5" fill="#f1e05a" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="363.46" y="110.3" font-size="12.5" fill="#1f2328">shopping-list-plus-card</text>
+</g>
+<text class="mono" x="538.54" y="88" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.0821;0.0848;0.1089;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.0821;0.0848;0.1089;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c2"><rect x="622.38" y="89" width="115.25" height="34">
+<animate attributeName="x" values="622.38;622.38;737.63;737.63;622.38;622.38" keyTimes="0;0.0962;0.1158;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="115.25;115.25;0;0;115.25;115.25" keyTimes="0;0.0962;0.1158;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="624.38" y="91" width="111.25" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c2)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="624.38" y="91" width="111.25" height="30" rx="15" fill="#ffffff" stroke="#dea584" stroke-opacity="0.6"/>
+<circle cx="640.38" cy="106" r="4.5" fill="#dea584" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="652.38" y="110.3" font-size="12.5" fill="#1f2328">NASYNCLOUD</text>
+</g>
+<text class="mono" x="729.63" y="88" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.1158;0.1185;0.1427;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.1158;0.1185;0.1427;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c3"><rect x="637.42" y="145" width="85.15" height="34">
+<animate attributeName="width" values="85.15;85.15;0;0;85.15;85.15" keyTimes="0;0.1653;0.1796;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="639.42" y="147" width="81.15" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c3)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="639.42" y="147" width="81.15" height="30" rx="15" fill="#ffffff" stroke="#dea584" stroke-opacity="0.6"/>
+<circle cx="655.43" cy="162" r="4.5" fill="#dea584" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="667.43" y="166.3" font-size="12.5" fill="#1f2328">vektor</text>
+</g>
+<text class="mono" x="645.42" y="144" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.1796;0.1823;0.2065;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.1796;0.1823;0.2065;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c4"><rect x="356.04" y="145" width="167.93" height="34">
+<animate attributeName="width" values="167.93;167.93;0;0;167.93;167.93" keyTimes="0;0.2004;0.2293;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="358.04" y="147" width="163.93" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c4)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="358.04" y="147" width="163.93" height="30" rx="15" fill="#ffffff" stroke="#3572A5" stroke-opacity="0.6"/>
+<circle cx="374.04" cy="162" r="4.5" fill="#3572A5" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="386.04" y="166.3" font-size="12.5" fill="#1f2328">ha-fermax-duox-me</text>
+</g>
+<text class="mono" x="364.04" y="144" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.2293;0.232;0.2562;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.2293;0.232;0.2562;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c5"><rect x="142.38" y="145" width="115.25" height="34">
+<animate attributeName="width" values="115.25;115.25;0;0;115.25;115.25" keyTimes="0;0.2474;0.2671;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="144.38" y="147" width="111.25" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c5)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="144.38" y="147" width="111.25" height="30" rx="15" fill="#ffffff" stroke="#f1e05a" stroke-opacity="0.6"/>
+<circle cx="160.38" cy="162" r="4.5" fill="#f1e05a" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="172.38" y="166.3" font-size="12.5" fill="#1f2328">ac-ha-card</text>
+</g>
+<text class="mono" x="150.38" y="144" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.2671;0.2698;0.2939;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.2671;0.2698;0.2939;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c6"><rect x="112.28" y="201" width="175.45" height="34">
+<animate attributeName="x" values="112.28;112.28;287.73;287.73;112.28;112.28" keyTimes="0;0.3085;0.3388;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="175.45;175.45;0;0;175.45;175.45" keyTimes="0;0.3085;0.3388;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="114.28" y="203" width="171.45" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c6)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="114.28" y="203" width="171.45" height="30" rx="15" fill="#ffffff" stroke="#3178c6" stroke-opacity="0.6"/>
+<circle cx="130.28" cy="218" r="4.5" fill="#3178c6" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="142.28" y="222.3" font-size="12.5" fill="#1f2328">immich-bulk-import</text>
+</g>
+<text class="mono" x="279.73" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.3388;0.3415;0.3657;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.3388;0.3415;0.3657;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c7"><rect x="359.8" y="201" width="160.4" height="34">
+<animate attributeName="x" values="359.8;359.8;520.2;520.2;359.8;359.8" keyTimes="0;0.3523;0.3799;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="160.4;160.4;0;0;160.4;160.4" keyTimes="0;0.3523;0.3799;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="361.8" y="203" width="156.4" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c7)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="361.8" y="203" width="156.4" height="30" rx="15" fill="#ffffff" stroke="#f1e05a" stroke-opacity="0.6"/>
+<circle cx="377.8" cy="218" r="4.5" fill="#f1e05a" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="389.8" y="222.3" font-size="12.5" fill="#1f2328">chrome-extension</text>
+</g>
+<text class="mono" x="512.2" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.3799;0.3826;0.4067;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.3799;0.3826;0.4067;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c8"><rect x="588.51" y="201" width="182.98" height="34">
+<animate attributeName="x" values="588.51;588.51;771.49;771.49;588.51;588.51" keyTimes="0;0.3927;0.4243;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="182.98;182.98;0;0;182.98;182.98" keyTimes="0;0.3927;0.4243;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="590.51" y="203" width="178.98" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c8)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="590.51" y="203" width="178.98" height="30" rx="15" fill="#ffffff" stroke="#e34c26" stroke-opacity="0.6"/>
+<circle cx="606.51" cy="218" r="4.5" fill="#e34c26" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="618.51" y="222.3" font-size="12.5" fill="#1f2328">Clinica-Veterinaria</text>
+</g>
+<text class="mono" x="763.49" y="200" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.4243;0.427;0.4511;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.4243;0.427;0.4511;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c9"><rect x="573.46" y="257" width="213.08" height="34">
+<animate attributeName="width" values="213.08;213.08;0;0;213.08;213.08" keyTimes="0;0.4564;0.4934;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="575.46" y="259" width="209.08" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c9)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="575.46" y="259" width="209.08" height="30" rx="15" fill="#ffffff" stroke="#3572A5" stroke-opacity="0.6"/>
+<circle cx="591.46" cy="274" r="4.5" fill="#3572A5" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="603.46" y="278.3" font-size="12.5" fill="#1f2328">Simple-Discord-Bot-in-…</text>
+</g>
+<text class="mono" x="581.46" y="256" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.4934;0.4961;0.5202;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.4934;0.4961;0.5202;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c10"><rect x="333.46" y="257" width="213.08" height="34">
+<animate attributeName="width" values="213.08;213.08;0;0;213.08;213.08" keyTimes="0;0.4988;0.5358;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="335.46" y="259" width="209.08" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c10)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="335.46" y="259" width="209.08" height="30" rx="15" fill="#ffffff" stroke="#012456" stroke-opacity="0.6"/>
+<circle cx="351.46" cy="274" r="4.5" fill="#012456" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="363.46" y="278.3" font-size="12.5" fill="#1f2328">NetworkAdapterSettings…</text>
+</g>
+<text class="mono" x="341.46" y="256" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.5358;0.5385;0.5626;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.5358;0.5385;0.5626;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c11"><rect x="149.9" y="257" width="100.2" height="34">
+<animate attributeName="width" values="100.2;100.2;0;0;100.2;100.2" keyTimes="0;0.5512;0.5682;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="151.9" y="259" width="96.2" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c11)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="151.9" y="259" width="96.2" height="30" rx="15" fill="#ffffff" stroke="#b07219" stroke-opacity="0.6"/>
+<circle cx="167.9" cy="274" r="4.5" fill="#b07219" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="179.9" y="278.3" font-size="12.5" fill="#1f2328">RandomSM</text>
+</g>
+<text class="mono" x="157.9" y="256" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.5682;0.5709;0.5951;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.5682;0.5709;0.5951;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c12"><rect x="134.85" y="313" width="130.3" height="34">
+<animate attributeName="x" values="134.85;134.85;265.15;265.15;134.85;134.85" keyTimes="0;0.615;0.6373;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="130.3;130.3;0;0;130.3;130.3" keyTimes="0;0.615;0.6373;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="136.85" y="315" width="126.3" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c12)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="136.85" y="315" width="126.3" height="30" rx="15" fill="#ffffff" stroke="#b07219" stroke-opacity="0.6"/>
+<circle cx="152.85" cy="330" r="4.5" fill="#b07219" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="164.85" y="334.3" font-size="12.5" fill="#1f2328">Maclaren-APP</text>
+</g>
+<text class="mono" x="257.15" y="312" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.6373;0.64;0.6642;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.6373;0.64;0.6642;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c13"><rect x="333.46" y="313" width="213.08" height="34">
+<animate attributeName="x" values="333.46;333.46;546.54;546.54;333.46;333.46" keyTimes="0;0.6501;0.687;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="213.08;213.08;0;0;213.08;213.08" keyTimes="0;0.6501;0.687;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="335.46" y="315" width="209.08" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c13)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="335.46" y="315" width="209.08" height="30" rx="15" fill="#ffffff" stroke="#7355dd" stroke-opacity="0.6"/>
+<circle cx="351.46" cy="330" r="4.5" fill="#7355dd" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="363.46" y="334.3" font-size="12.5" fill="#1f2328">Simple-2D-Game-In-Unity</text>
+</g>
+<text class="mono" x="538.54" y="312" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.687;0.6897;0.7139;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.687;0.6897;0.7139;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c14"><rect x="603.56" y="313" width="152.88" height="34">
+<animate attributeName="x" values="603.56;603.56;756.44;756.44;603.56;603.56" keyTimes="0;0.6978;0.7241;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="width" values="152.88;152.88;0;0;152.88;152.88" keyTimes="0;0.6978;0.7241;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="605.56" y="315" width="148.88" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c14)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="605.56" y="315" width="148.88" height="30" rx="15" fill="#ffffff" stroke="#555555" stroke-opacity="0.6"/>
+<circle cx="621.56" cy="330" r="4.5" fill="#555555" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="633.56" y="334.3" font-size="12.5" fill="#1f2328">jogo-da-forca-c</text>
+</g>
+<text class="mono" x="748.44" y="312" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.7241;0.7268;0.751;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.7241;0.7268;0.751;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<clipPath id="c15"><rect x="626.14" y="369" width="107.73" height="34">
+<animate attributeName="width" values="107.73;107.73;0;0;107.73;107.73" keyTimes="0;0.7682;0.7865;0.953;0.9533;1" dur="29.79s" repeatCount="indefinite"/>
+</rect></clipPath>
+<rect x="628.14" y="371" width="103.73" height="30" rx="15" fill="none" stroke="#d0d7de" stroke-dasharray="3 4"/>
+<g clip-path="url(#c15)">
+<animate attributeName="opacity" values="1;1;0;1;1" keyTimes="0;0.953;0.9533;0.9731;1" dur="29.79s" repeatCount="indefinite"/>
+<rect x="628.14" y="371" width="103.73" height="30" rx="15" fill="#ffffff" stroke="#b07219" stroke-opacity="0.6"/>
+<circle cx="644.14" cy="386" r="4.5" fill="#b07219" stroke="#d0d7de" stroke-width="0.6"/>
+<text class="mono" x="656.14" y="390.3" font-size="12.5" fill="#1f2328">Gestao-RH</text>
+</g>
+<text class="mono" x="634.14" y="368" text-anchor="middle" font-size="11" font-weight="700" fill="#bf8700" opacity="0">+1
+<animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.7865;0.7892;0.8134;1" dur="29.79s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 6;0 6;0 0;0 -10;0 -10" keyTimes="0;0.7865;0.7892;0.8134;1" dur="29.79s" repeatCount="indefinite"/>
+</text>
+<g clip-path="url(#board)">
+<use href="#route" fill="none" stroke="#1a7f37" stroke-opacity="1" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="56 99999" stroke-dashoffset="-104">
+<animate attributeName="stroke-dasharray" values="56 99999;56 99999;66 99999;66 99999;76 99999;76 99999;86 99999;86 99999;96 99999;96 99999;106 99999;106 99999;116 99999;116 99999;126 99999;126 99999;136 99999;136 99999;146 99999;146 99999;156 99999;156 99999;166 99999;166 99999;176 99999;176 99999;186 99999;186 99999;196 99999;196 99999;206 99999;206 99999;216 99999;216 99999;216 99999" keyTimes="0;0.0094;0.033;0.0451;0.0821;0.0962;0.1158;0.1653;0.1796;0.2004;0.2293;0.2474;0.2671;0.3085;0.3388;0.3523;0.3799;0.3927;0.4243;0.4564;0.4934;0.4988;0.5358;0.5512;0.5682;0.615;0.6373;0.6501;0.687;0.6978;0.7241;0.7682;0.7865;0.9396;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="stroke-dashoffset" values="-104;-157.09;-280.92;-349.46;-548.53;-628.37;-729.63;-1009.39;-1080.54;-1198;-1351.93;-1454.34;-1555.58;-1790.19;-1951.65;-2027.73;-2174.13;-2246.45;-2415.41;-2597.35;-2796.43;-2827.36;-3026.44;-3113.8;-3200;-3464.71;-3581.02;-3653.31;-3852.39;-3913.42;-4052.3;-4301.96;-4395.68;-5261.81;-5261.82" keyTimes="0;0.0094;0.033;0.0451;0.0821;0.0962;0.1158;0.1653;0.1796;0.2004;0.2293;0.2474;0.2671;0.3085;0.3388;0.3523;0.3799;0.3927;0.4243;0.4564;0.4934;0.4988;0.5358;0.5512;0.5682;0.615;0.6373;0.6501;0.687;0.6978;0.7241;0.7682;0.7865;0.9396;1" dur="29.79s" repeatCount="indefinite"/>
+</use>
+<use href="#route" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="56 99999" stroke-dashoffset="-104">
+<animate attributeName="stroke-dasharray" values="56 99999;56 99999;66 99999;66 99999;76 99999;76 99999;86 99999;86 99999;96 99999;96 99999;106 99999;106 99999;116 99999;116 99999;126 99999;126 99999;136 99999;136 99999;146 99999;146 99999;156 99999;156 99999;166 99999;166 99999;176 99999;176 99999;186 99999;186 99999;196 99999;196 99999;206 99999;206 99999;216 99999;216 99999;216 99999" keyTimes="0;0.0094;0.033;0.0451;0.0821;0.0962;0.1158;0.1653;0.1796;0.2004;0.2293;0.2474;0.2671;0.3085;0.3388;0.3523;0.3799;0.3927;0.4243;0.4564;0.4934;0.4988;0.5358;0.5512;0.5682;0.615;0.6373;0.6501;0.687;0.6978;0.7241;0.7682;0.7865;0.9396;1" dur="29.79s" repeatCount="indefinite"/><animate attributeName="stroke-dashoffset" values="-104;-157.09;-280.92;-349.46;-548.53;-628.37;-729.63;-1009.39;-1080.54;-1198;-1351.93;-1454.34;-1555.58;-1790.19;-1951.65;-2027.73;-2174.13;-2246.45;-2415.41;-2597.35;-2796.43;-2827.36;-3026.44;-3113.8;-3200;-3464.71;-3581.02;-3653.31;-3852.39;-3913.42;-4052.3;-4301.96;-4395.68;-5261.81;-5261.82" keyTimes="0;0.0094;0.033;0.0451;0.0821;0.0962;0.1158;0.1653;0.1796;0.2004;0.2293;0.2474;0.2671;0.3085;0.3388;0.3523;0.3799;0.3927;0.4243;0.4564;0.4934;0.4988;0.5358;0.5512;0.5682;0.615;0.6373;0.6501;0.687;0.6978;0.7241;0.7682;0.7865;0.9396;1" dur="29.79s" repeatCount="indefinite"/>
+</use>
+<g>
+<path d="M8 0 L15 0 M15 0 l3 -2.4 M15 0 l3 2.4" stroke="#cf222e" stroke-width="1.6" stroke-linecap="round" fill="none">
+<animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="0.9s" calcMode="discrete" repeatCount="indefinite"/>
+</path>
+<circle r="9.5" fill="#1a7f37"/>
+<circle cx="2.5" cy="-4.2" r="2.9" fill="#ffffff"/><circle cx="3.4" cy="-4.2" r="1.45" fill="#0d1117"/><circle cx="2.5" cy="4.2" r="2.9" fill="#ffffff"/><circle cx="3.4" cy="4.2" r="1.45" fill="#0d1117"/>
+<animateMotion dur="29.79s" repeatCount="indefinite" rotate="auto" calcMode="linear" keyPoints="0.0292;0.0389;0.0633;0.0758;0.114;0.1286;0.1489;0.2;0.2148;0.2362;0.2662;0.2848;0.3052;0.348;0.3793;0.3932;0.4217;0.4349;0.4676;0.5008;0.539;0.5446;0.5828;0.5987;0.6163;0.6646;0.6877;0.7009;0.7391;0.7502;0.7774;0.8229;0.8419;1;1" keyTimes="0;0.0094;0.033;0.0451;0.0821;0.0962;0.1158;0.1653;0.1796;0.2004;0.2293;0.2474;0.2671;0.3085;0.3388;0.3523;0.3799;0.3927;0.4243;0.4564;0.4934;0.4988;0.5358;0.5512;0.5682;0.615;0.6373;0.6501;0.687;0.6978;0.7241;0.7682;0.7865;0.9396;1"><mpath href="#route"/></animateMotion>
+</g>
+</g>
+<text x="440" y="447" text-anchor="middle" font-size="12" fill="#818b98">Every pill is one of my public repositories, newest first · refreshed daily</text>
+</svg>

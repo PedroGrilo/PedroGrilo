@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-labelledby="t d">
+<title id="t">Pedro Grilo, Senior Frontend Engineer</title>
+<desc id="d">Senior Frontend Engineer based in Lisbon, Portugal. I build fast, accessible interfaces with React, Vue.js and TypeScript. Real-time, collaborative map editors with CRDTs and WebSockets. After hours: Rust + Tauri desktop apps and Home Assistant hacks.</desc>
+<style>
+text{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+.ha-ping{transform-box:fill-box;transform-origin:center;animation:ha-ping 2s ease-out infinite}
+@keyframes ha-ping{0%{transform:scale(1);opacity:.7}70%,100%{transform:scale(2.6);opacity:0}}
+.ha-caret{animation:ha-blink 1s step-end infinite}@keyframes ha-blink{50%{opacity:0}}
+@keyframes ha-r0{0%{transform:scaleX(0)}0%{transform:scaleX(0);animation-timing-function:steps(70)}10%,27.33%{transform:scaleX(1);animation-timing-function:steps(24)}30%,100%{transform:scaleX(0)}}
+@keyframes ha-c0{0%{transform:translateX(0)}0%{transform:translateX(0);animation-timing-function:steps(70)}10%,27.33%{transform:translateX(441.2px);animation-timing-function:steps(24)}30%,100%{transform:translateX(0)}}
+@keyframes ha-v0{0%{opacity:0}0%{opacity:1}31.33%{opacity:0}}
+.ha-r0{transform-origin:60px 0;animation:ha-r0 18s -2.4s infinite}
+.ha-l0{animation:ha-v0 18s -2.4s step-end infinite}
+.ha-c0{animation:ha-c0 18s -2.4s infinite}
+@keyframes ha-r1{0%{transform:scaleX(0)}33.33%{transform:scaleX(0);animation-timing-function:steps(63)}43.33%,60.67%{transform:scaleX(1);animation-timing-function:steps(21)}63.33%,100%{transform:scaleX(0)}}
+@keyframes ha-c1{0%{transform:translateX(0)}33.33%{transform:translateX(0);animation-timing-function:steps(63)}43.33%,60.67%{transform:translateX(437.3px);animation-timing-function:steps(21)}63.33%,100%{transform:translateX(0)}}
+@keyframes ha-v1{0%{opacity:0}33.33%{opacity:1}64.67%{opacity:0}}
+.ha-r1{transform-origin:60px 0;animation:ha-r1 18s -2.4s infinite}
+.ha-l1{animation:ha-v1 18s -2.4s step-end infinite}
+.ha-c1{animation:ha-c1 18s -2.4s infinite}
+@keyframes ha-r2{0%{transform:scaleX(0)}66.67%{transform:scaleX(0);animation-timing-function:steps(64)}76.67%,94%{transform:scaleX(1);animation-timing-function:steps(22)}96.67%,100%{transform:scaleX(0)}}
+@keyframes ha-c2{0%{transform:translateX(0)}66.67%{transform:translateX(0);animation-timing-function:steps(64)}76.67%,94%{transform:translateX(435.8px);animation-timing-function:steps(22)}96.67%,100%{transform:translateX(0)}}
+@keyframes ha-v2{0%{opacity:0}66.67%{opacity:1}98%{opacity:0}}
+.ha-r2{transform-origin:60px 0;animation:ha-r2 18s -2.4s infinite}
+.ha-l2{animation:ha-v2 18s -2.4s step-end infinite}
+.ha-c2{animation:ha-c2 18s -2.4s infinite}
+@keyframes ha-fa{0%{opacity:0}38%{opacity:0}42%{opacity:1}100%{opacity:1}}
+.ha-fa{animation:ha-fa 14s -10.08s infinite }@keyframes ha-ea0{0%{stroke-dashoffset:1}8%{stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)}15.5%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.ha-ea0{animation:ha-ea0 14s -10.08s infinite }
+@keyframes ha-va0{0%{transform:scale(0)}8%{transform:scale(0)}9.5%{transform:scale(1.5)}11.5%{transform:scale(1)}100%{transform:scale(1)}}
+.ha-va0{transform-box:fill-box;transform-origin:center;animation:ha-va0 14s -10.08s infinite }@keyframes ha-ea1{0%{stroke-dashoffset:1}15.5%{stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)}23%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.ha-ea1{animation:ha-ea1 14s -10.08s infinite }
+@keyframes ha-va1{0%{transform:scale(0)}15.5%{transform:scale(0)}17%{transform:scale(1.5)}19%{transform:scale(1)}100%{transform:scale(1)}}
+.ha-va1{transform-box:fill-box;transform-origin:center;animation:ha-va1 14s -10.08s infinite }@keyframes ha-ea2{0%{stroke-dashoffset:1}23%{stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)}30.5%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.ha-ea2{animation:ha-ea2 14s -10.08s infinite }
+@keyframes ha-va2{0%{transform:scale(0)}23%{transform:scale(0)}24.5%{transform:scale(1.5)}26.5%{transform:scale(1)}100%{transform:scale(1)}}
+.ha-va2{transform-box:fill-box;transform-origin:center;animation:ha-va2 14s -10.08s infinite }@keyframes ha-ea3{0%{stroke-dashoffset:1}30.5%{stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)}38%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.ha-ea3{animation:ha-ea3 14s -10.08s infinite }
+@keyframes ha-va3{0%{transform:scale(0)}30.5%{transform:scale(0)}32%{transform:scale(1.5)}34%{transform:scale(1)}100%{transform:scale(1)}}
+.ha-va3{transform-box:fill-box;transform-origin:center;animation:ha-va3 14s -10.08s infinite }
+@keyframes ha-fb{0%{opacity:0}42%{opacity:0}46%{opacity:1}100%{opacity:1}}
+.ha-fb{animation:ha-fb 14s -10.08s infinite }@keyframes ha-eb0{0%{stroke-dashoffset:1}12%{stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)}19.5%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.ha-eb0{animation:ha-eb0 14s -10.08s infinite }
+@keyframes ha-vb0{0%{transform:scale(0)}12%{transform:scale(0)}13.5%{transform:scale(1.5)}15.5%{transform:scale(1)}100%{transform:scale(1)}}
+.ha-vb0{transform-box:fill-box;transform-origin:center;animation:ha-vb0 14s -10.08s infinite }@keyframes ha-eb1{0%{stroke-dashoffset:1}19.5%{stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)}27%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.ha-eb1{animation:ha-eb1 14s -10.08s infinite }
+@keyframes ha-vb1{0%{transform:scale(0)}19.5%{transform:scale(0)}21%{transform:scale(1.5)}23%{transform:scale(1)}100%{transform:scale(1)}}
+.ha-vb1{transform-box:fill-box;transform-origin:center;animation:ha-vb1 14s -10.08s infinite }@keyframes ha-eb2{0%{stroke-dashoffset:1}27%{stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)}34.5%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.ha-eb2{animation:ha-eb2 14s -10.08s infinite }
+@keyframes ha-vb2{0%{transform:scale(0)}27%{transform:scale(0)}28.5%{transform:scale(1.5)}30.5%{transform:scale(1)}100%{transform:scale(1)}}
+.ha-vb2{transform-box:fill-box;transform-origin:center;animation:ha-vb2 14s -10.08s infinite }@keyframes ha-eb3{0%{stroke-dashoffset:1}34.5%{stroke-dashoffset:1;animation-timing-function:cubic-bezier(.45,0,.3,1)}42%{stroke-dashoffset:0}100%{stroke-dashoffset:0}}
+.ha-eb3{animation:ha-eb3 14s -10.08s infinite }
+@keyframes ha-vb3{0%{transform:scale(0)}34.5%{transform:scale(0)}36%{transform:scale(1.5)}38%{transform:scale(1)}100%{transform:scale(1)}}
+.ha-vb3{transform-box:fill-box;transform-origin:center;animation:ha-vb3 14s -10.08s infinite }
+@keyframes ha-shape{0%{opacity:1}90%{opacity:1}96%{opacity:0}100%{opacity:0}}
+.ha-shape{animation:ha-shape 14s -10.08s infinite }
+@keyframes ha-conflict{0%{opacity:0}43%{opacity:0}45%{opacity:1}58%{opacity:1}60%{opacity:0}100%{opacity:0}}
+.ha-conflict{animation:ha-conflict 14s -10.08s infinite }
+@keyframes ha-blink{0%{opacity:.25}50%{opacity:.75}100%{opacity:.25}}
+.ha-blink{animation:ha-blink .5s ease-in-out infinite}
+@keyframes ha-merged{0%{opacity:0}60%{opacity:0}62%{opacity:1}88%{opacity:1}90%{opacity:0}100%{opacity:0}}
+.ha-merged{animation:ha-merged 14s -10.08s infinite }
+@keyframes ha-m-pedro{0%{transform:translate(10px,10px)}2%{transform:translate(10px,10px)}8%{transform:translate(34px,46px)}15.5%{transform:translate(150px,38px)}23%{transform:translate(158px,128px)}30.5%{transform:translate(42px,140px)}38%{transform:translate(34px,46px)}48%{transform:translate(10px,10px)}100%{transform:translate(10px,10px)}}
+.ha-m-pedro{animation:ha-m-pedro 14s -10.08s infinite ;animation-timing-function:cubic-bezier(.45,0,.3,1)}
+@keyframes ha-m-you{0%{transform:translate(214px,186px)}6%{transform:translate(214px,186px)}12%{transform:translate(112px,78px)}19.5%{transform:translate(232px,66px)}27%{transform:translate(238px,166px)}34.5%{transform:translate(118px,174px)}42%{transform:translate(112px,78px)}52%{transform:translate(214px,186px)}100%{transform:translate(214px,186px)}}
+.ha-m-you{animation:ha-m-you 14s -10.08s infinite ;animation-timing-function:cubic-bezier(.45,0,.3,1)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<defs>
+<clipPath id="ha-card"><rect x="1" y="1" width="878" height="318" rx="13"/></clipPath>
+<radialGradient id="ha-glow" cx="0.18" cy="0.12" r="0.7">
+  <stop offset="0" stop-color="#3ddc84" stop-opacity="0.17600000000000002"/>
+  <stop offset="1" stop-color="#3ddc84" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="ha-glow2" cx="0.85" cy="0.95" r="0.55">
+  <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.12100000000000001"/>
+  <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+</radialGradient>
+<pattern id="ha-dots" width="18" height="18" patternUnits="userSpaceOnUse">
+  <circle cx="9" cy="9" r="1" fill="#5b6878" fill-opacity="0.28"/>
+</pattern>
+<linearGradient id="ha-fade" x1="0" x2="1">
+  <stop offset="0" stop-color="#fff" stop-opacity="0.15"/>
+  <stop offset="0.6" stop-color="#fff" stop-opacity="1"/>
+</linearGradient>
+<mask id="ha-dotmask"><rect width="880" height="320" fill="url(#ha-fade)"/></mask><clipPath id="ha-tc0"><rect class="ha-r0" x="60" y="183" width="441.2" height="25"/></clipPath><clipPath id="ha-tc1"><rect class="ha-r1" x="60" y="183" width="437.3" height="25"/></clipPath><clipPath id="ha-tc2"><rect class="ha-r2" x="60" y="183" width="435.8" height="25"/></clipPath><clipPath id="ha-map"><rect width="292" height="224" rx="8"/></clipPath></defs>
+
+<rect x="0.5" y="0.5" width="879" height="319" rx="14" fill="#0d1117" stroke="#263241"/>
+<g clip-path="url(#ha-card)">
+  <rect width="880" height="320" fill="url(#ha-dots)" mask="url(#ha-dotmask)"/>
+  <rect width="880" height="320" fill="url(#ha-glow)"/>
+  <rect width="880" height="320" fill="url(#ha-glow2)"/>
+</g>
+<g transform="translate(40 40)">
+  <rect width="269.62" height="26" rx="13" fill="#3ddc84" fill-opacity="0.08" stroke="#3ddc84" stroke-opacity="0.35"/>
+  <text x="12" y="17.5" class="mono" font-size="12" textLength="245.62"><tspan fill="#5b6878">&lt;</tspan><tspan fill="#3ddc84">FrontendEngineer</tspan><tspan fill="#2dd4bf"> city</tspan><tspan fill="#5b6878">=</tspan><tspan fill="#facc15">&quot;Lisbon&quot;</tspan><tspan fill="#5b6878"> /&gt;</tspan></text>
+</g>
+<text x="38" y="128" font-size="46" font-weight="800" letter-spacing="-1" fill="#e6edf3">Hi, I'm Pedro <tspan fill="#3ddc84">Grilo</tspan></text>
+<circle cx="45" cy="157" r="4" fill="#3ddc84"/>
+<circle cx="45" cy="157" r="4" fill="none" stroke="#3ddc84" class="ha-ping"/>
+<text x="58" y="162" font-size="16" font-weight="500" fill="#8b98a9">Senior Frontend Engineer · Lisbon, Portugal</text>
+<text x="42" y="202" class="mono" font-size="15" font-weight="700" fill="#3ddc84">&gt;</text><g class="ha-l0">
+<text x="60" y="202" font-size="15" fill="#e6edf3" clip-path="url(#ha-tc0)" textLength="439.2" lengthAdjust="spacingAndGlyphs">I build fast, accessible interfaces with React, Vue.js and TypeScript.</text>
+<g class="ha-c0" transform="translate(441.2 0)"><rect class="ha-caret" x="61" y="188" width="2" height="18" rx="1" fill="#3ddc84"/></g>
+</g><g class="ha-l1" opacity="0">
+<text x="60" y="202" font-size="15" fill="#e6edf3" clip-path="url(#ha-tc1)" textLength="435.3" lengthAdjust="spacingAndGlyphs">Real-time, collaborative map editors with CRDTs and WebSockets.</text>
+<g class="ha-c1" transform="translate(0 0)"><rect class="ha-caret" x="61" y="188" width="2" height="18" rx="1" fill="#3ddc84"/></g>
+</g><g class="ha-l2" opacity="0">
+<text x="60" y="202" font-size="15" fill="#e6edf3" clip-path="url(#ha-tc2)" textLength="433.8" lengthAdjust="spacingAndGlyphs">After hours: Rust + Tauri desktop apps and Home Assistant hacks.</text>
+<g class="ha-c2" transform="translate(0 0)"><rect class="ha-caret" x="61" y="188" width="2" height="18" rx="1" fill="#3ddc84"/></g>
+</g>
+<g transform="translate(40 228)">
+  <rect width="146.47" height="48" rx="10" fill="#111a24" fill-opacity="0.85" stroke="#263241"/>
+  <rect x="0.5" y="14" width="2.5" height="20" rx="1.25" fill="#3ddc84"/>
+  <text x="14" y="22" font-size="16" font-weight="700" letter-spacing="-0.2" fill="#e6edf3" textLength="20.54">6+</text>
+  <text x="14" y="38" font-size="11" fill="#8b98a9">years shipping web apps</text>
+</g>
+<g transform="translate(196.47 228)">
+  <rect width="111.71" height="48" rx="10" fill="#111a24" fill-opacity="0.85" stroke="#263241"/>
+  <rect x="0.5" y="14" width="2.5" height="20" rx="1.25" fill="#3ddc84"/>
+  <text x="14" y="22" font-size="16" font-weight="700" letter-spacing="-0.2" fill="#e6edf3" textLength="43.66">19/20</text>
+  <text x="14" y="38" font-size="11" fill="#8b98a9">MSc thesis grade</text>
+</g>
+<g transform="translate(318.18 228)">
+  <rect width="141.41" height="48" rx="10" fill="#111a24" fill-opacity="0.85" stroke="#263241"/>
+  <rect x="0.5" y="14" width="2.5" height="20" rx="1.25" fill="#3ddc84"/>
+  <text x="14" y="22" font-size="16" font-weight="700" letter-spacing="-0.2" fill="#e6edf3" textLength="83.03">NOVA FCT</text>
+  <text x="14" y="38" font-size="11" fill="#8b98a9">MSc Computer Science</text>
+</g>
+<rect x="548" y="24" width="308" height="272" rx="12" fill="#111a24" stroke="#263241"/>
+<g transform="translate(562 37)" fill="none" stroke="#3ddc84" stroke-width="1.4" stroke-linejoin="round">
+  <path d="M0 2 L4 0 L8 2 L12 0 V10 L8 12 L4 10 L0 12 Z"/><path d="M4 0 V10 M8 2 V12" stroke-opacity="0.6"/>
+</g>
+<text x="582" y="47" class="mono" font-size="11" fill="#8b98a9" textLength="132.44">lisbon-zones.geojson</text>
+<circle cx="763.512" cy="43" r="9" fill="#2dd4bf" stroke="#111a24" stroke-width="2"/>
+<text x="763.512" y="47" font-size="11" font-weight="700" text-anchor="middle" fill="#0d1117">Y</text>
+<circle cx="777.512" cy="43" r="9" fill="#3ddc84" stroke="#111a24" stroke-width="2"/>
+<text x="777.512" y="47" font-size="11" font-weight="700" text-anchor="middle" fill="#0d1117">P</text>
+<g transform="translate(791.51 33)">
+  <rect width="52.49" height="20" rx="10" fill="#3ddc84" fill-opacity="0.12" stroke="#3ddc84" stroke-opacity="0.4"/>
+  <circle cx="10" cy="10" r="3" fill="#3ddc84"/>
+  <circle cx="10" cy="10" r="3" fill="none" stroke="#3ddc84" class="ha-ping"/>
+  <text x="18" y="14" class="mono" font-size="11" font-weight="700" letter-spacing="0" fill="#3ddc84" textLength="26.49">LIVE</text>
+</g>
+<g transform="translate(556 64)">
+  <g clip-path="url(#ha-map)"><rect width="292" height="224" fill="#0d1117"/>
+<path d="M24 0V224M48 0V224M72 0V224M96 0V224M120 0V224M144 0V224M168 0V224M192 0V224M216 0V224M240 0V224M264 0V224M288 0V224M0 24H292M0 48H292M0 72H292M0 96H292M0 120H292M0 144H292M0 168H292M0 192H292M0 216H292" stroke="#263241" stroke-opacity="0.55" stroke-width="1"/>
+<g fill="#3ddc84" fill-opacity="0.07">
+  <path d="M8 6 h56 a10 10 0 0 1 10 10 v20 a10 10 0 0 1 -10 10 h-56 z"/>
+  <path d="M236 168 c18-8 44-4 56 6 v52 h-70 c-6-20-2-48 14-58z"/>
+</g>
+<g fill="none" stroke="#5b6878" stroke-opacity="0.35" stroke-dasharray="2 4">
+  <ellipse cx="248" cy="40" rx="34" ry="20"/><ellipse cx="248" cy="40" rx="18" ry="10"/>
+</g>
+<path d="M-6 196 C50 168 90 214 150 196 S240 150 300 166" fill="none" stroke="#2dd4bf" stroke-opacity="0.22" stroke-width="14" stroke-linecap="round"/>
+<path d="M-6 196 C50 168 90 214 150 196 S240 150 300 166" fill="none" stroke="#2dd4bf" stroke-opacity="0.35" stroke-width="1.2"/>
+<g fill="none" stroke="#8b98a9" stroke-opacity="0.35" stroke-linecap="round">
+  <path d="M0 98 C70 92 120 112 292 86" stroke-width="3"/>
+  <path d="M106 0 C112 60 96 130 120 226" stroke-width="2"/>
+</g>
+<g transform="translate(10 210)">
+  <path d="M0 0 v4 h40 v-4" fill="none" stroke="#8b98a9" stroke-width="1.2"/>
+  <text x="46" y="5" class="mono" font-size="11" fill="#8b98a9">200 m</text>
+</g>
+<g transform="translate(262 8)" fill="#111a24" stroke="#263241">
+  <rect width="22" height="44" rx="6"/><path d="M0 22 H22" fill="none"/>
+  <path d="M7 11 H15 M11 7 V15 M7 33 H15" stroke="#8b98a9" stroke-width="1.4" stroke-linecap="round"/>
+</g>
+<defs><pattern id="ha-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="3" height="6" fill="#facc15" fill-opacity="0.55"/></pattern></defs>
+<g class="ha-shape"><polygon class="ha-fa" points="34,46 150,38 158,128 42,140" fill="#3ddc84" fill-opacity="0.16"/><path class="ha-ea0" d="M34 46L150 38" pathLength="1" stroke-dasharray="1 1" stroke="#3ddc84" stroke-width="2.2" stroke-linecap="round"/><path class="ha-ea1" d="M150 38L158 128" pathLength="1" stroke-dasharray="1 1" stroke="#3ddc84" stroke-width="2.2" stroke-linecap="round"/><path class="ha-ea2" d="M158 128L42 140" pathLength="1" stroke-dasharray="1 1" stroke="#3ddc84" stroke-width="2.2" stroke-linecap="round"/><path class="ha-ea3" d="M42 140L34 46" pathLength="1" stroke-dasharray="1 1" stroke="#3ddc84" stroke-width="2.2" stroke-linecap="round"/><circle class="ha-va0" cx="34" cy="46" r="4" fill="#0d1117" stroke="#3ddc84" stroke-width="2"/><circle class="ha-va1" cx="150" cy="38" r="4" fill="#0d1117" stroke="#3ddc84" stroke-width="2"/><circle class="ha-va2" cx="158" cy="128" r="4" fill="#0d1117" stroke="#3ddc84" stroke-width="2"/><circle class="ha-va3" cx="42" cy="140" r="4" fill="#0d1117" stroke="#3ddc84" stroke-width="2"/><polygon class="ha-fb" points="112,78 232,66 238,166 118,174" fill="#2dd4bf" fill-opacity="0.16"/><path class="ha-eb0" d="M112 78L232 66" pathLength="1" stroke-dasharray="1 1" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round"/><path class="ha-eb1" d="M232 66L238 166" pathLength="1" stroke-dasharray="1 1" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round"/><path class="ha-eb2" d="M238 166L118 174" pathLength="1" stroke-dasharray="1 1" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round"/><path class="ha-eb3" d="M118 174L112 78" pathLength="1" stroke-dasharray="1 1" stroke="#2dd4bf" stroke-width="2.2" stroke-linecap="round"/><circle class="ha-vb0" cx="112" cy="78" r="4" fill="#0d1117" stroke="#2dd4bf" stroke-width="2"/><circle class="ha-vb1" cx="232" cy="66" r="4" fill="#0d1117" stroke="#2dd4bf" stroke-width="2"/><circle class="ha-vb2" cx="238" cy="166" r="4" fill="#0d1117" stroke="#2dd4bf" stroke-width="2"/><circle class="ha-vb3" cx="118" cy="174" r="4" fill="#0d1117" stroke="#2dd4bf" stroke-width="2"/>
+<g class="ha-conflict" opacity="0"><polygon class="ha-blink" points="112,78 153.19,73.88 158,128 115.4,132.41" fill="#ff7b72" stroke="#ff7b72" stroke-width="1.5" stroke-dasharray="3 2"/></g>
+<g class="ha-merged" opacity="0"><polygon points="112,78 153.19,73.88 158,128 115.4,132.41" fill="url(#ha-hatch)" stroke="#facc15" stroke-width="1.5"/></g>
+<g class="ha-conflict" opacity="0"><rect x="61.56" y="8" width="168.89" height="22" rx="11" fill="#0d1117" stroke="#ff7b72"/>
+<circle cx="73.56" cy="19" r="3.5" fill="#ff7b72"/>
+<text x="82.56" y="23" font-size="11" font-weight="700" fill="#e6edf3" textLength="138.89">Conflict · overlapping edits</text></g>
+<g class="ha-merged" opacity="0"><rect x="74.09" y="8" width="143.82" height="22" rx="11" fill="#0d1117" stroke="#3ddc84"/>
+<circle cx="86.09" cy="19" r="3.5" fill="#3ddc84"/>
+<text x="95.09" y="23" font-size="11" font-weight="700" fill="#e6edf3" textLength="113.82">Merged · no edits lost</text></g>
+</g>
+<g class="ha-m-you" transform="translate(214 186)">
+  <path d="M0 0 L0 15 L4 11.4 L7 18 L9.6 16.9 L6.7 10.5 L12 10.5 Z" fill="#2dd4bf" stroke="#0d1117" stroke-width="1.3" stroke-linejoin="round"/>
+  <rect x="11" y="15" width="34.6" height="18" rx="9" fill="#2dd4bf"/>
+  <text x="18" y="27.8" font-size="11" font-weight="700" fill="#0d1117" textLength="20.6">You</text>
+</g>
+<g class="ha-m-pedro" transform="translate(10 10)">
+  <path d="M0 0 L0 15 L4 11.4 L7 18 L9.6 16.9 L6.7 10.5 L12 10.5 Z" fill="#3ddc84" stroke="#0d1117" stroke-width="1.3" stroke-linejoin="round"/>
+  <rect x="11" y="15" width="44.01" height="18" rx="9" fill="#3ddc84"/>
+  <text x="18" y="27.8" font-size="11" font-weight="700" fill="#0d1117" textLength="30.01">Pedro</text>
+</g>
+  </g>
+  <rect width="292" height="224" rx="8" fill="none" stroke="#263241"/>
+</g>
+</svg>
